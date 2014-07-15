@@ -2,8 +2,8 @@
 //  iOS_Project_ProtoTypeTests.m
 //  iOS_Project_ProtoTypeTests
 //
-//  Created by JUNGHYEON KIM on 2014-07-11.
-//  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
+//  Created by HARDEEP SINGH on 2014-07-11.
+//  Copyright (c) 2014 HARDEEP SINGH. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

@@ -21,6 +21,8 @@
 		BFB88E5C1970614600A4E7FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB88E3E1970614600A4E7FB /* UIKit.framework */; };
 		BFB88E641970614600A4E7FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFB88E621970614600A4E7FB /* InfoPlist.strings */; };
 		BFB88E661970614600A4E7FB /* iOS_Project_ProtoTypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB88E651970614600A4E7FB /* iOS_Project_ProtoTypeTests.m */; };
+		BFB88E711970616F00A4E7FB /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB88E701970616F00A4E7FB /* DBManager.m */; };
+		BFB88E73197061D800A4E7FB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB88E72197061D800A4E7FB /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		BFB88E611970614600A4E7FB /* iOS_Project_ProtoTypeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS_Project_ProtoTypeTests-Info.plist"; sourceTree = "<group>"; };
 		BFB88E631970614600A4E7FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFB88E651970614600A4E7FB /* iOS_Project_ProtoTypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Project_ProtoTypeTests.m; sourceTree = "<group>"; };
+		BFB88E6F1970616F00A4E7FB /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		BFB88E701970616F00A4E7FB /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		BFB88E72197061D800A4E7FB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB88E73197061D800A4E7FB /* libsqlite3.dylib in Frameworks */,
 				BFB88E3D1970614600A4E7FB /* CoreGraphics.framework in Frameworks */,
 				BFB88E3F1970614600A4E7FB /* UIKit.framework in Frameworks */,
 				BFB88E3B1970614600A4E7FB /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		BFB88E391970614600A4E7FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFB88E72197061D800A4E7FB /* libsqlite3.dylib */,
 				BFB88E3A1970614600A4E7FB /* Foundation.framework */,
 				BFB88E3C1970614600A4E7FB /* CoreGraphics.framework */,
 				BFB88E3E1970614600A4E7FB /* UIKit.framework */,
@@ -112,6 +119,8 @@
 		BFB88E401970614600A4E7FB /* iOS_Project_ProtoType */ = {
 			isa = PBXGroup;
 			children = (
+				BFB88E6F1970616F00A4E7FB /* DBManager.h */,
+				BFB88E701970616F00A4E7FB /* DBManager.m */,
 				BFB88E491970614600A4E7FB /* AppDelegate.h */,
 				BFB88E4A1970614600A4E7FB /* AppDelegate.m */,
 				BFB88E4C1970614600A4E7FB /* Main.storyboard */,
@@ -252,6 +261,7 @@
 				BFB88E511970614600A4E7FB /* ViewController.m in Sources */,
 				BFB88E4B1970614600A4E7FB /* AppDelegate.m in Sources */,
 				BFB88E471970614600A4E7FB /* main.m in Sources */,
+				BFB88E711970616F00A4E7FB /* DBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
